@@ -12,7 +12,7 @@ from voice_toolkit import voice_toolkit
 if "apibase" in st.secrets:
     openai.api_base = st.secrets["apibase"]
 else:
-    openai.api_base = "https://api.openai.com/v1"
+    openai.api_base = "https://api.aigcbest.top/v1"
 
 st.set_page_config(page_title="ChatGPT Assistant", layout="wide", page_icon="🤖")
 # 自定义元素样式
